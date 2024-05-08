@@ -75,6 +75,5 @@ class SettingsTableHeaderView: UIView {
             $0.trailing.equalTo(lightLabel.snp.trailing)
             $0.bottom.equalToSuperview().offset(-10)
         }
-        
     }
 }

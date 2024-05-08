@@ -43,7 +43,7 @@ class SettingsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         let tableHeader = SettingsTableHeaderView(frame: .init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.24))
 //        settingsTable.sectionHeaderTopPadding = 0.0
-        
+        tableHeader.signInButton.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
         self.settingsTable.tableHeaderView = tableHeader
         
     }
@@ -52,6 +52,10 @@ class SettingsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         self.navigationController?.popViewController(animated: true)
     }
     
+    @objc
+    func signInButtonTapped() {
+        self.present(LoginViewController(), animated: true)
+    }
     //MARK: UITableViewDelegate
     
     func numberOfSections(in tableView: UITableView) -> Int {
