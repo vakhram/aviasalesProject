@@ -27,6 +27,7 @@ extension LoginView {
         let textField = createTextField(with: "Password")
         
         return textField
+        return textField
     }
     
     func createLogInButton() -> UIButton {

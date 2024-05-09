@@ -21,9 +21,10 @@
 		3C63D0C52BADA41300343768 /* PresentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63D0C42BADA41300343768 /* PresentViewCell.swift */; };
 		3C63D0C72BADB03A00343768 /* cellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63D0C62BADB03A00343768 /* cellProtocol.swift */; };
 		3C63D0CA2BADB96600343768 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63D0C92BADB96600343768 /* Currency.swift */; };
-		3C97DA2C2BE9B6B900524137 /* LoginViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C97DA2B2BE9B6B900524137 /* LoginViewExtension.swift */; };
 		3C97DA2E2BEAC02100524137 /* LoginViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C97DA2D2BEAC02100524137 /* LoginViewPresenter.swift */; };
 		3C97DA332BEAC46000524137 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C97DA322BEAC46000524137 /* CustomTextField.swift */; };
+		3C97DA3C2BEC478B00524137 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C97DA3B2BEC478B00524137 /* CustomButton.swift */; };
+		3C97DA3E2BEC47B200524137 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C97DA3D2BEC47B200524137 /* CustomHeaderView.swift */; };
 		3CA7A9372BB4513100231891 /* Flights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7A9362BB4513100231891 /* Flights.swift */; };
 		3CA7A9392BB6B94000231891 /* SettingsTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7A9382BB6B94000231891 /* SettingsTableHeaderView.swift */; };
 		3CA7A93B2BBB473700231891 /* InANutshellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7A93A2BBB473700231891 /* InANutshellCell.swift */; };
@@ -73,9 +74,10 @@
 		3C63D0C42BADA41300343768 /* PresentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewCell.swift; sourceTree = "<group>"; };
 		3C63D0C62BADB03A00343768 /* cellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellProtocol.swift; sourceTree = "<group>"; };
 		3C63D0C92BADB96600343768 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
-		3C97DA2B2BE9B6B900524137 /* LoginViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewExtension.swift; sourceTree = "<group>"; };
 		3C97DA2D2BEAC02100524137 /* LoginViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewPresenter.swift; sourceTree = "<group>"; };
 		3C97DA322BEAC46000524137 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3C97DA3B2BEC478B00524137 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3C97DA3D2BEC47B200524137 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
 		3CA7A9362BB4513100231891 /* Flights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flights.swift; sourceTree = "<group>"; };
 		3CA7A9382BB6B94000231891 /* SettingsTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableHeaderView.swift; sourceTree = "<group>"; };
 		3CA7A93A2BBB473700231891 /* InANutshellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InANutshellCell.swift; sourceTree = "<group>"; };
@@ -157,8 +159,9 @@
 			children = (
 				3C3A03D82BE9B3F300B5AF97 /* LoginViewController.swift */,
 				3C3A03DB2BE9B46400B5AF97 /* LoginView.swift */,
-				3C97DA2B2BE9B6B900524137 /* LoginViewExtension.swift */,
 				3C97DA322BEAC46000524137 /* CustomTextField.swift */,
+				3C97DA3B2BEC478B00524137 /* CustomButton.swift */,
+				3C97DA3D2BEC47B200524137 /* CustomHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C97DA3C2BEC478B00524137 /* CustomButton.swift in Sources */,
 				3C97DA332BEAC46000524137 /* CustomTextField.swift in Sources */,
 				3C5CC2852BC5638E0022433C /* NetworkManager.swift in Sources */,
 				AC475B852B8D5ACB00281AC8 /* FirstViewController.swift in Sources */,
@@ -412,12 +416,12 @@
 				3C97DA2E2BEAC02100524137 /* LoginViewPresenter.swift in Sources */,
 				3C5CC2872BC6F79E0022433C /* APIViewController.swift in Sources */,
 				3C63D0C52BADA41300343768 /* PresentViewCell.swift in Sources */,
+				3C97DA3E2BEC47B200524137 /* CustomHeaderView.swift in Sources */,
 				3C5CC2822BC558010022433C /* UserDefaultsKeys.swift in Sources */,
 				ACC821532B88A891004E272B /* FlightsVC.swift in Sources */,
 				3C5CC2C82BD133E00022433C /* Cat.swift in Sources */,
 				AC475B832B8D583400281AC8 /* SettingsVC.swift in Sources */,
 				3C3A03D92BE9B3F300B5AF97 /* LoginViewController.swift in Sources */,
-				3C97DA2C2BE9B6B900524137 /* LoginViewExtension.swift in Sources */,
 				3C63D0CA2BADB96600343768 /* Currency.swift in Sources */,
 				3CA7A93B2BBB473700231891 /* InANutshellCell.swift in Sources */,
 				3C63D04B2B9F1D1B00343768 /* person.swift in Sources */,
