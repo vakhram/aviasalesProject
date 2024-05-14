@@ -7,8 +7,14 @@
 
 import UIKit
 
+//protocol LoginViewProtocol {
+//    func setupUI()
+//}
+
 protocol LoginViewDelegate {
-    func didpressLogInButton(username: String?, password: String?)
+    func forgotPasswordButtonDidTapped()
+    func newUserButtonDidTapped()
+    func signInButtonDidTapped()
 }
 
 class LoginView: UIView {
@@ -19,9 +25,7 @@ class LoginView: UIView {
     
     lazy var passwordTextField = CustomTextField(authFieldType: .password)
     lazy var usernameField = CustomTextField(authFieldType: .username)
-    
-    var loginViewDelegate: LoginViewDelegate?
-    
+        
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()
@@ -31,7 +35,7 @@ class LoginView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func setupUI() {
+    func setupUI() {
         
         addSubview(passwordTextField)
         addSubview(usernameField)
@@ -66,6 +70,7 @@ class LoginView: UIView {
             $0.centerX.equalToSuperview()
         }
     }
+    
 }
 
 extension LoginView: UITextFieldDelegate {
@@ -74,10 +79,9 @@ extension LoginView: UITextFieldDelegate {
         case usernameField:
             passwordTextField.becomeFirstResponder()
         case passwordTextField:
-            loginViewDelegate?.didpressLogInButton(username: usernameField.text, password: passwordTextField.text)
+            break
         default:
             break
-            
         }
         return true
     }

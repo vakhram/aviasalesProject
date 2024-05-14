@@ -16,5 +16,515 @@
             categories = "Layout Issues">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B05B18F-2E6A-4C64-AAC4-EDA06282DBEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "LoginView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1B05B18F-2E6A-4C64-AAC4-EDA06282DBEC - 31f8bc63da2dd598"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginView.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;testproject1.LoginView&gt;"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1B05B18F-2E6A-4C64-AAC4-EDA06282DBEC - 5cb9868f9d8f580a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;testproject1.LoginView&gt;"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9B4A831-4868-4E54-B63F-CABFA039A7F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/View/LoginView/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "forgotPasswordButtonDidTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A2586E9-E39E-4594-8C53-A4C5B00F50D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/View/LoginView/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "newUserButtonDidTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36DC56AD-4C38-426E-9C59-E7C6B6AAB28D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/View/LoginView/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "signInButtonDidTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62203A1F-A615-44FC-AB99-8404B97EDE58"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Router/MainViewRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "newUserButtonDidTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62203A1F-A615-44FC-AB99-8404B97EDE58 - 79dc9b627348db63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.MainViewRouter.newUserButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Router/MainViewRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "62203A1F-A615-44FC-AB99-8404B97EDE58 - 79dc9b627348d8ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.MainViewRouter.newUserButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Router/MainViewRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "62203A1F-A615-44FC-AB99-8404B97EDE58 - 79dc9b627348d88e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.MainViewRouter.newUserButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Router/MainViewRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "745F450F-32B3-45E3-AE84-6BB1066D3FE8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Router/MainViewRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "signInButtonDidTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "745F450F-32B3-45E3-AE84-6BB1066D3FE8 - 898c53d6b5be6611"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.MainViewRouter.signInButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Router/MainViewRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "745F450F-32B3-45E3-AE84-6BB1066D3FE8 - 898c53d6b5be66f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.MainViewRouter.signInButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Router/MainViewRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "745F450F-32B3-45E3-AE84-6BB1066D3FE8 - 898c53d6b5be674a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.MainViewRouter.signInButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Router/MainViewRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46C77953-4A77-41E4-B813-2D8698FD57B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Presenter/LoginViewPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "forgotPasswordButtonDidTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46C77953-4A77-41E4-B813-2D8698FD57B7 - fddb8c8f0966b37a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginViewPresenter.forgotPasswordButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Presenter/LoginViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "46C77953-4A77-41E4-B813-2D8698FD57B7 - fddb8c8f0966b37a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginViewPresenter.forgotPasswordButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Presenter/LoginViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD15A8A1-DB4A-4C2E-90E2-821316904420"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Presenter/LoginViewPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "newUserButtonDidTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD15A8A1-DB4A-4C2E-90E2-821316904420 - 10ed1e2a181a2c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginViewPresenter.newUserButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Presenter/LoginViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "AD15A8A1-DB4A-4C2E-90E2-821316904420 - 10ed1e2a181a2c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginViewPresenter.newUserButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Presenter/LoginViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DBC7446-F9E3-47B0-A379-BAD34F28D729"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Presenter/LoginViewPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "signInButtonDidTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7DBC7446-F9E3-47B0-A379-BAD34F28D729 - d56b043df5c5d5b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginViewPresenter.signInButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Presenter/LoginViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "7DBC7446-F9E3-47B0-A379-BAD34F28D729 - d56b043df5c5d5b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testproject1.LoginViewPresenter.signInButtonDidTapped() -&gt; ()"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/Presenter/LoginViewPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2013A7A4-4A32-482D-9E87-F1BEC103FD11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Interactor/LoginViewInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "forgotPasswordCheckData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "240C9645-4C3D-461E-86D7-3B08F8D754BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Interactor/LoginViewInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "forgotPasswordCheckData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C988B24-5EFC-4B4A-8994-96D1506A5E5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/LogInModuleBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "buildLogInModule()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C988B24-5EFC-4B4A-8994-96D1506A5E5B - 9c3104bd45f399cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static testproject1.Builder.buildLogInModule() -&gt; __C.UIViewController"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/LogInModuleBuilder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "7C988B24-5EFC-4B4A-8994-96D1506A5E5B - 9c3104bd45f399cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static testproject1.Builder.buildLogInModule() -&gt; __C.UIViewController"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/LogInModuleBuilder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9C03013-0809-4004-9FBC-7C4BECA19E13"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/LogInModuleBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "buildLogInModule()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A9C03013-0809-4004-9FBC-7C4BECA19E13 - 9c3104bd45f39809"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static testproject1.Builder.buildLogInModule() -&gt; __C.UIViewController"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/LogInModuleBuilder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "A9C03013-0809-4004-9FBC-7C4BECA19E13 - 9c3104bd45f39809"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static testproject1.Builder.buildLogInModule() -&gt; __C.UIViewController"
+                  moduleName = "testproject1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guestacc/Desktop/aviasalesProject/testproject1/VIPER%20module/LogInModuleBuilder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3D15027-0339-497E-B9FB-90B5AFC9C233"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testproject1/VIPER module/Router/MainViewRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "forgotPasswordButtonDidTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

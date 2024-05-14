@@ -54,7 +54,8 @@ class SettingsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @objc
     func signInButtonTapped() {
-        self.present(LoginViewController(), animated: true)
+        let LoginViewController = Builder.buildLogInModule()
+        self.present(LoginViewController, animated: true)
     }
     //MARK: UITableViewDelegate
     
