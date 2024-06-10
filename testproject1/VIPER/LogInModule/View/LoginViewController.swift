@@ -9,7 +9,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    private let contentView: LoginView = .init()
+    public let contentView: LoginView = .init()
     private let headerView: CustomHeaderView = .init(title: "Sign in", subtitle: "Sign in your account")
     var presenter: LoginViewPresenter?
     
@@ -24,6 +24,7 @@ class LoginViewController: UIViewController {
     
     override func loadView() {
         self.view = contentView
+        self.contentView.textView.delegate = self
     }
     
     override func viewDidLoad() {
@@ -57,16 +58,33 @@ class LoginViewController: UIViewController {
     @objc
     private func forgotPasswordButtonDidTapped() {
         presenter?.forgotPasswordButtonDidTapped()
-        print("forgotPasswordButtonDidTapped")
     }
     @objc
     private func newUserButtonDidTapped() {
         presenter?.newUserButtonDidTapped()
-        print("newUserButtonDidTapped")
     }
     @objc
     private func signInButtonDidTapped() {
         presenter?.signInButtonDidTapped()
-        print("signInButtonDidTapped")
+    }
+}
+extension LoginViewController: UITextViewDelegate {
+    func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
+        if URL.scheme == "terms" {
+            self.showWebViewer(with: "https://policies.google.com/terms?hl=en-US")
+        } else if URL.scheme == "privacy" {
+            self.showWebViewer(with: "https://policies.google.com/privacy?hl=en-US")
+        }
+        return true
+    }
+    private func showWebViewer(with url: String) {
+        let webviewer = WebViewController(urlString: url)
+        let nav = UINavigationController(rootViewController: webviewer)
+        self.present(nav, animated: true)
+    }
+    func textViewDidChangeSelection(_ textView: UITextView) {
+        textView.delegate = nil
+        textView.selectedTextRange = nil
+        textView.delegate = self
     }
 }

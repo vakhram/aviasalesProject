@@ -20,20 +20,16 @@ class MainViewRouter: MainViewRouterProtocol {
     weak var view: UIViewController?
     
     func forgotPasswordButtonDidTapped() {
-        let ForgotPasswordViewController = ForgotPasswordViewController()
+        let ForgotPasswordViewController = Builder.buildForgotPasswordModule()
         view?.present(ForgotPasswordViewController, animated: true)
-        print("router exist")
     }
     
     func newUserButtonDidTapped() {
-        let NewUserViewController = NewUserViewController()
+        let NewUserViewController = Builder.buildNewUserModule()
         view?.present(NewUserViewController, animated: true)
-        print("router exist")
     }
     
     func signInButtonDidTapped() {
-        let AuthenticationViewController = AuthenticationViewController()
-        view?.present(AuthenticationViewController, animated: true)
-        print("router exist")
+        view?.dismiss(animated: true)
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol LoginViewPresenterProtocol: LoginViewDelegate {
     
@@ -16,7 +17,7 @@ final class LoginViewPresenter: LoginViewPresenterProtocol {
     
     
     weak var loginView: LoginViewController?
-    var interactor: LoginViewInteractor!
+    let interactor: LoginViewInteractor!
     var router: MainViewRouter?
     
     init(interactor: LoginViewInteractor) {
@@ -36,9 +37,17 @@ final class LoginViewPresenter: LoginViewPresenterProtocol {
     }
     
     func signInButtonDidTapped() {
-        if(interactor.SignInCheckData()) {
+        if(interactor.SignInCheckData(username: loginView?.contentView.usernameField.text, password: loginView?.contentView.passwordTextField.text)) {
             router?.signInButtonDidTapped()
         }
+//        else {
+//            let webViewer = WebViewController(urlString: "https://www.memeatlas.com/images/wojaks/wojak-what-should-I-feel.jpg")
+//            let nav = UINavigationController(rootViewController: webViewer)
+//            self.loginView?.present(nav, animated: true)
+//
+//        }
     }
     
 }
+
+

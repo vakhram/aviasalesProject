@@ -36,7 +36,6 @@ class APICell: UITableViewCell {
     
     private lazy var catImageView: UIImageView = {
        let iv = UIImageView()
-        iv.layer.cornerRadius = 100/2
         iv.layer.masksToBounds = true
 
         return iv

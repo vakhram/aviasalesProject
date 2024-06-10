@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol LoginViewInteractorProtocol {
     
@@ -22,8 +23,16 @@ final class LoginViewInteractor: LoginViewInteractorProtocol {
         return true
     }
     
-    func SignInCheckData() -> Bool  {
-       return true
+    func SignInCheckData(username: String?, password: String?) -> Bool  {
+        guard let username = username, username != "" else {
+            AlertManager.showUserNameValidationError(on: presenter?.loginView ?? UIViewController())
+            return false
+        }
+        guard let password = password, password != ""  else {
+            AlertManager.showPasswordValidationError(on: presenter?.loginView ?? UIViewController())
+            return false
+        }
+        return true
     }
     
 }

@@ -22,6 +22,7 @@ class CustomHeaderView: UIView {
         let label = UILabel()
         label.textColor = .label
         label.textAlignment = .center
+        label.numberOfLines = 0
         label.font = .systemFont(ofSize: 26, weight: .bold)
         label.text = "Error"
         
@@ -64,13 +65,12 @@ class CustomHeaderView: UIView {
         }
         titleLabel.snp.makeConstraints {
             $0.top.equalTo(iconImageView.snp.bottom).inset(-16)
-            $0.leading.equalTo(iconImageView.snp.leading)
-            $0.trailing.equalTo(iconImageView.snp.trailing)
+            $0.centerX.equalToSuperview()
         }
         subtitleLabel.snp.makeConstraints {
             $0.top.equalTo(titleLabel.snp.bottom).inset(-16)
-            $0.width.equalTo(200)
-            $0.leading.equalToSuperview().offset(96)
+            $0.width.equalTo(250)
+            $0.leading.equalToSuperview().offset(72)
         }
     }
 }
